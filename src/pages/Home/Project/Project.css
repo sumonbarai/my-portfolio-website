@@ -1,0 +1,32 @@
+.project-area .custom-card {
+  position: relative;
+}
+.project-area .custom-card:hover .overlay {
+  opacity: 1;
+}
+.project-area .overlay {
+  background-color: #f52225;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  z-index: 99;
+}
+.project-area .overlay button {
+  font-size: 1.8rem;
+  border-radius: 1rem;
+  background-color: #fff;
+  border: none;
+  padding: 0.2rem 1rem;
+  margin: 0.5rem 0;
+}
+.project-area .overlay h3 {
+  color: #fff;
+  font-size: 1.8rem;
+}
