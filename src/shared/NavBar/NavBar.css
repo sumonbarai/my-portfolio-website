@@ -14,11 +14,7 @@
 }
 
 .nav-area #logo {
-  font-size: 3rem !important;
   text-decoration: none;
-  color: #fff;
-}
-.nav-area #logo span {
   color: #f52225;
   font-size: 4rem;
 }

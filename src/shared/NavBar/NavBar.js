@@ -9,7 +9,7 @@ const NavBar = () => {
       <Navbar expand="lg">
         <Container>
           <Link id="logo" to="/">
-            <span>S</span>umon<span>.</span>
+            Sumon.
           </Link>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
