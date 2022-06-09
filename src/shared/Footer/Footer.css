@@ -1,0 +1,19 @@
+.footer-area {
+  background-color: #191c26;
+  color: #fff;
+  font-size: 1.7rem;
+  padding: 2rem;
+  text-transform: capitalize;
+}
+.footer-area p {
+  margin: 0;
+}
+.social-link a {
+  color: #f52225;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 0 0.5rem;
+}
+.social-link a:hover {
+  color: #fff;
+}

@@ -46,3 +46,9 @@
     transition: box-shadow 0.15s ease-in-out;
   }
 }
+
+@media (max-width: 575.98px) {
+  .footer-area .footer-flex {
+    flex-direction: column;
+  }
+}
