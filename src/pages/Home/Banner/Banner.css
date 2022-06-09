@@ -29,6 +29,9 @@
 .banner-text p {
   font-weight: 300 !important;
 }
+.banner-text .type-text {
+  font-size: 5rem;
+}
 .custom-shape-divider-bottom-1654717633 {
   position: absolute;
   bottom: 0;

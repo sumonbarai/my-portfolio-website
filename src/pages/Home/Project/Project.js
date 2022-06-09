@@ -7,9 +7,21 @@ import ProjectRow from "./ProjectRow";
 
 const Project = () => {
   const information = [
-    { projectTitle: "Electric Manufacture", image: project1 },
-    { projectTitle: "Laptop-Warehouse", image: project2 },
-    { projectTitle: "Body-Fitness", image: project3 },
+    {
+      projectTitle: "Electric Manufacture",
+      image: project1,
+      liveLink: "https://electric-manufacture.web.app/",
+    },
+    {
+      projectTitle: "Laptop-Warehouse",
+      image: project2,
+      liveLink: "https://warehouse-95574.web.app/",
+    },
+    {
+      projectTitle: "Body-Fitness",
+      image: project3,
+      liveLink: "https://fitness-94a8e.firebaseapp.com/",
+    },
   ];
   return (
     <div className="project-area section-padding" id="project">

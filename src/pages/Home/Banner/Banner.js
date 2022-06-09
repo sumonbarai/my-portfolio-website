@@ -11,12 +11,9 @@ const Banner = () => {
   return (
     <div className="banner">
       <div className="container banner-area d-flex justify-content-center align-items-center">
-        <div className="banner-text">
+        <div className="banner-text px-3">
           <span>Hello, I'm Sumon</span>
-          <div
-            className="d-flex justify-content-center m fw-bold"
-            style={{ fontSize: "6rem" }}
-          >
+          <div className="type-text d-flex justify-content-center m fw-bold">
             <div>I'm a&nbsp;</div>
             <Typewriter
               options={{
