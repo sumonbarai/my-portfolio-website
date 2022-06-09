@@ -1,10 +1,39 @@
-import React from "react";
+import React, { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 import "./Contact.css";
 import { FiPhoneCall } from "react-icons/fi";
 import { MdOutlineMarkEmailRead } from "react-icons/md";
 import { ImLocation } from "react-icons/im";
 
 const Contact = () => {
+  const [success, setSuccess] = useState(false);
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_cumybbe",
+        "template_slxjhzi",
+        form.current,
+        "Acx30sMmjOch4WyWQ"
+      )
+      .then(
+        (result) => {
+          if (result.text) {
+            setSuccess(true);
+          }
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+    setTimeout(() => {
+      setSuccess(false);
+    }, 5000);
+  };
+
   return (
     <div
       className="contact-area section-padding"
@@ -51,13 +80,23 @@ const Contact = () => {
                 I'm always open to discussing product design work or
                 partnerships.
               </p>
-              <form>
-                <input type="text" placeholder="Name *" />
-                <input type="email" placeholder="Email *" />
-                <input type="text" placeholder="Subject *" />
-                <textarea type="text" rows="2" placeholder="Message *" />
+              <form ref={form} onSubmit={sendEmail}>
+                <input type="text" placeholder="Name *" name="name" />
+                <input type="email" placeholder="Email *" name="email" />
+                <input type="text" placeholder="Subject *" name="subject" />
+                <textarea
+                  type="text"
+                  rows="2"
+                  placeholder="Message *"
+                  name="message"
+                />
 
                 <input type="submit" value="Submit" />
+                {success && (
+                  <p className="success-message">
+                    Your message has been send successfully
+                  </p>
+                )}
               </form>
             </div>
           </div>

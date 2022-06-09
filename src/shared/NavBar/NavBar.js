@@ -19,7 +19,6 @@ const NavBar = () => {
               navbarScroll
             >
               <Link to="/">Home</Link>
-              <Link to="/about">about</Link>
               <a href="#project">project</a>
               <a href="#contact">contact</a>
             </Nav>

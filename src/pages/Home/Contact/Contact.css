@@ -47,3 +47,7 @@
 .contact-form input[type="submit"]:hover {
   background-color: #b11618;
 }
+.success-message {
+  font-size: 2rem;
+  color: green;
+}

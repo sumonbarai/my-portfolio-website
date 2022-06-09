@@ -12,7 +12,9 @@
   text-transform: uppercase;
   color: #fff;
 }
-
+.nav-area .main-menu a:hover {
+  color: #f52225;
+}
 .nav-area #logo {
   text-decoration: none;
   color: #f52225;

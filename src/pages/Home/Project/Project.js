@@ -10,9 +10,6 @@ const Project = () => {
     { projectTitle: "Electric Manufacture", image: project1 },
     { projectTitle: "Laptop-Warehouse", image: project2 },
     { projectTitle: "Body-Fitness", image: project3 },
-    { projectTitle: "Electric Manufacture", image: project1 },
-    { projectTitle: "Laptop-Warehouse", image: project2 },
-    { projectTitle: "Body-Fitness", image: project3 },
   ];
   return (
     <div className="project-area section-padding" id="project">
