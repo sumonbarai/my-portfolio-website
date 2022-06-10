@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "1",
+    "projectTitle": "Electric Manufacture",
+    "image": "https://i.ibb.co/VpFMf6V/project-01.jpg",
+    "liveLink": "https://electric-manufacture.web.app/"
+  },
+  {
+    "_id": "2",
+    "projectTitle": "Laptop-Warehouse",
+    "image": "https://i.ibb.co/cYt3by0/project-02.jpg",
+    "liveLink": "https://warehouse-95574.web.app/"
+  },
+  {
+    "_id": "3",
+    "projectTitle": "Body-Fitness",
+    "image": "https://i.ibb.co/yXGxhm8/project-03.png",
+    "liveLink": "https://fitness-94a8e.firebaseapp.com/"
+  }
+]

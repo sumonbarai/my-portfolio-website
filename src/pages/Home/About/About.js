@@ -9,7 +9,7 @@ const About = () => {
       id="about"
       style={{ background: "#F9F9FC" }}
     >
-      <div className="container">
+      <div className="container" data-aos="fade-up" data-aos-duration="2000">
         <h2 className="section-title">about me</h2>
         <div className="row align-items-center">
           <div className="col-lg-6">

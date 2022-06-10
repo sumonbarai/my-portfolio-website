@@ -11,7 +11,11 @@ const Banner = () => {
   return (
     <div className="banner">
       <div className="container banner-area d-flex justify-content-center align-items-center">
-        <div className="banner-text px-3">
+        <div
+          className="banner-text px-3"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
           <span>Hello, I'm Sumon</span>
           <div className="type-text d-flex justify-content-center m fw-bold">
             <div>I'm a&nbsp;</div>

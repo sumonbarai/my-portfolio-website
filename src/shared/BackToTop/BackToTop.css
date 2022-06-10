@@ -1,0 +1,18 @@
+#backToTop {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: red;
+  line-height: 5rem;
+  text-align: center;
+  position: fixed;
+  right: 4rem;
+  bottom: 5rem;
+  cursor: pointer;
+  z-index: 99;
+  transition: all 1s ease-in-out;
+}
+#backToTop .arrow-icon {
+  color: #fff;
+  font-size: 3rem;
+}

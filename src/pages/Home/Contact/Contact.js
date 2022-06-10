@@ -40,7 +40,7 @@ const Contact = () => {
       id="contact"
       style={{ background: "#F9F9FC" }}
     >
-      <div className="container">
+      <div className="container" data-aos="fade-up" data-aos-duration="2000">
         <h2 className="section-title">contact us</h2>
         <div className="row g-4 align-items-center">
           <div className="col-lg-6 p-4">

@@ -1,11 +1,21 @@
-import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
 
 const NavBar = () => {
+  window.addEventListener("scroll", () => {
+    const scrollBar = window.scrollY;
+    if (scrollBar > 500) {
+      document.getElementById("nav-area").style.position = "fixed";
+      document.getElementById("nav-area").style.backgroundColor = "#191C26";
+    } else {
+      document.getElementById("nav-area").style.position = "absolute";
+      document.getElementById("nav-area").style.backgroundColor = "transparent";
+    }
+  });
+
   return (
-    <div className="nav-area">
+    <div className="nav-area" id="nav-area">
       <Navbar expand="lg">
         <Container>
           <Link id="logo" to="/">
@@ -19,10 +29,10 @@ const NavBar = () => {
               navbarScroll
             >
               <Link to="/">Home</Link>
-              <a href="#project">project</a>
-              <a href="#about">about</a>
-              <a href="#blogs">blogs</a>
-              <a href="#contact">contact</a>
+              <a href="/#project">project</a>
+              <a href="/#about">about</a>
+              <a href="/#blogs">blogs</a>
+              <a href="/#contact">contact</a>
             </Nav>
           </Navbar.Collapse>
         </Container>

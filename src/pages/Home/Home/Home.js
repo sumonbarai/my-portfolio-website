@@ -1,4 +1,5 @@
 import React from "react";
+import BackToTop from "../../../shared/BackToTop/BackToTop";
 import About from "../About/About";
 import Banner from "../Banner/Banner";
 import Blog from "../Blog/Blog";
@@ -13,6 +14,7 @@ const Home = () => {
       <About></About>
       <Blog></Blog>
       <Contact></Contact>
+      <BackToTop></BackToTop>
     </div>
   );
 };
