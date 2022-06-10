@@ -54,6 +54,9 @@
   .contact-information h3 {
     font-size: 4rem !important;
   }
+  .custom-shape-divider-bottom-1654854612 {
+    display: none;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -63,9 +66,7 @@
   .banner-text .type-text {
     font-size: 2rem !important;
   }
-  .custom-shape-divider-bottom-1654717633 {
-    display: none;
-  }
+
   .banner-text {
     font-size: 1.7rem;
   }

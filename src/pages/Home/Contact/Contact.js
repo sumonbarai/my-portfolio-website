@@ -81,12 +81,23 @@ const Contact = () => {
                 partnerships.
               </p>
               <form ref={form} onSubmit={sendEmail}>
-                <input type="text" placeholder="Name *" name="name" />
-                <input type="email" placeholder="Email *" name="email" />
-                <input type="text" placeholder="Subject *" name="subject" />
+                <input type="text" required placeholder="Name *" name="name" />
+                <input
+                  type="email"
+                  required
+                  placeholder="Email *"
+                  name="email"
+                />
+                <input
+                  type="text"
+                  required
+                  placeholder="Subject *"
+                  name="subject"
+                />
                 <textarea
                   type="text"
                   rows="2"
+                  required
                   placeholder="Message *"
                   name="message"
                 />

@@ -5,6 +5,7 @@
   background-size: cover;
   position: relative;
   z-index: 1;
+  background-attachment: fixed;
 }
 .banner::after {
   content: "";
@@ -32,22 +33,24 @@
 .banner-text .type-text {
   font-size: 5rem;
 }
-.custom-shape-divider-bottom-1654717633 {
+/* shapes */
+.custom-shape-divider-bottom-1654854612 {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   overflow: hidden;
   line-height: 0;
+  transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1654717633 svg {
+.custom-shape-divider-bottom-1654854612 svg {
   position: relative;
   display: block;
-  width: calc(169% + 1.3px);
-  height: 78px;
+  width: calc(145% + 1.3px);
+  height: 209px;
 }
 
-.custom-shape-divider-bottom-1654717633 .shape-fill {
+.custom-shape-divider-bottom-1654854612 .shape-fill {
   fill: #ffffff;
 }

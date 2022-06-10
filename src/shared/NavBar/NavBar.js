@@ -20,6 +20,8 @@ const NavBar = () => {
             >
               <Link to="/">Home</Link>
               <a href="#project">project</a>
+              <a href="#about">about</a>
+              <a href="#blogs">blogs</a>
               <a href="#contact">contact</a>
             </Nav>
           </Navbar.Collapse>
