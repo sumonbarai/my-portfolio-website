@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 const ProjectRow = ({ project }) => {
   let navigate = useNavigate();
-  const { projectTitle, image, liveLink, _id } = project;
+  const { projectTitle, image1, liveLink, _id } = project;
   const handleLiveLink = (url) => {
     window.open(url, "_blank");
   };
@@ -13,7 +13,7 @@ const ProjectRow = ({ project }) => {
   return (
     <div className="col-lg-4 col-12 text-center">
       <div className="custom-card" data-aos="fade-up" data-aos-duration="2000">
-        <img className="img-fluid" src={image} alt="project" />
+        <img className="img-fluid" src={image1} alt="project" />
         <div className="overlay">
           <h3>{projectTitle}</h3>
           <button onClick={() => handleLiveLink(liveLink)}>Live Preview</button>
