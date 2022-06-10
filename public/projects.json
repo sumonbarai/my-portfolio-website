@@ -2,19 +2,25 @@
   {
     "_id": "1",
     "projectTitle": "Electric Manufacture",
-    "image": "https://i.ibb.co/VpFMf6V/project-01.jpg",
+    "image1": "https://i.ibb.co/VpFMf6V/project-01.jpg",
+    "image2": "https://i.ibb.co/X3zYgV5/project-01-b.png",
+    "image3": "https://i.ibb.co/3mFYrgt/project-01-c.png",
     "liveLink": "https://electric-manufacture.web.app/"
   },
   {
     "_id": "2",
     "projectTitle": "Laptop-Warehouse",
-    "image": "https://i.ibb.co/cYt3by0/project-02.jpg",
+    "image1": "https://i.ibb.co/cYt3by0/project-02.jpg",
+    "image2": "https://i.ibb.co/k6Sm0LX/project-02-b.png",
+    "image3": "https://i.ibb.co/FqL02HL/project-02-c.png",
     "liveLink": "https://warehouse-95574.web.app/"
   },
   {
     "_id": "3",
     "projectTitle": "Body-Fitness",
-    "image": "https://i.ibb.co/yXGxhm8/project-03.png",
+    "image1": "https://i.ibb.co/yXGxhm8/project-03.png",
+    "image2": "https://i.ibb.co/d0m3Ws5/project-03-b.png",
+    "image3": "https://i.ibb.co/qpGRGgr/project-03-c.png",
     "liveLink": "https://fitness-94a8e.firebaseapp.com/"
   }
 ]

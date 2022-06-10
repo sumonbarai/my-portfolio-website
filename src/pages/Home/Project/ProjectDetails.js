@@ -6,7 +6,9 @@ const ProjectDetails = () => {
   const { id } = useParams();
 
   useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/posts")
+    fetch(
+      "https://raw.githubusercontent.com/sumonbarai/my-portfolio-website/main/public/projects.json"
+    )
       .then((res) => res.json())
       .then((data) => {
         console.log(data);

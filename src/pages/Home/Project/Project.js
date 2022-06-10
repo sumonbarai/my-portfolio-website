@@ -6,7 +6,9 @@ import ProjectRow from "./ProjectRow";
 const Project = () => {
   const [information, setInformaiton] = useState([]);
   useEffect(() => {
-    fetch("projects.json")
+    fetch(
+      "https://raw.githubusercontent.com/sumonbarai/my-portfolio-website/main/public/projects.json"
+    )
       .then((res) => res.json())
       .then((data) => setInformaiton(data));
   }, []);
