@@ -57,6 +57,9 @@
   .custom-shape-divider-bottom-1654854612 {
     display: none;
   }
+  .product-details .all-technology {
+    grid-template-columns: repeat(4, 1fr) !important;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -72,5 +75,8 @@
   }
   .contact-information h3 {
     font-size: 3rem !important;
+  }
+  .product-details .all-technology {
+    grid-template-columns: repeat(2, 1fr) !important;
   }
 }

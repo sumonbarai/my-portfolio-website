@@ -56,19 +56,23 @@ const ProjectDetails = () => {
               ))}
             </ul>
             <h2 className="project-overview">Technology Used</h2>
-            <div>
+            <div className="all-technology">
               {technology.map((a, index) => (
-                <div key={index}>a</div>
+                <div className="child" key={index}>
+                  {a}
+                </div>
               ))}
             </div>
 
-            <div className="allLink">
+            <div className="allLink mt-4">
               <a className="learn-btn" href={project.clientCode}>
                 Client Side Code
               </a>
-              <a className="learn-btn" href={project.serverCode}>
-                server Side Code
-              </a>
+              {project.serverCode && (
+                <a className="learn-btn" href={project.serverCode}>
+                  server Side Code
+                </a>
+              )}
               <a className="learn-btn" href={project.liveLink}>
                 live preview
               </a>

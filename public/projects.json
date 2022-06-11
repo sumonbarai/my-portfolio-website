@@ -14,6 +14,9 @@
       "used mongodb database for maintain user data"
     ],
     "technology": [
+      "Html",
+      "Css",
+      "JavaScript",
       "React js",
       "React Router",
       "Tailwind CSS",
@@ -41,31 +44,29 @@
     "image3": "https://i.ibb.co/FqL02HL/project-02-c.png",
     "liveLink": "https://warehouse-95574.web.app/",
     "overview": [
-      "Users can order items for their business and also pay by international card.",
-      "User can Cancel their unpaid order and also give reviews about the sites.",
-      "Admin users can maintain all orders and make an admin or remove the admin",
+      "Users can log in to my website via google or email password",
+      "Login users can add products, update products or delete the product",
+      "Login user see my item route which he/she added all items",
       "google firebase authentication system apply",
       "used mongodb database for maintain user data"
     ],
     "technology": [
+      "Html",
+      "Css",
+      "JavaScript",
       "React js",
       "React Router",
-      "Tailwind CSS",
-      "DaisyUI",
+      "Bootstrap",
       "Firebase",
-      " React hook form",
       "React-Hot-Toast",
-      "React Query",
-      "Stripe",
       "MongoDB",
       "NodeJs",
       "ExpressJs",
       "Cors",
-      "Dotenv",
-      "Jsonwebtoken"
+      "Dotenv"
     ],
-    "clientCode": "https://github.com/sumonbarai/electric-menufacture-client",
-    "serverCode": "https://github.com/sumonbarai/electric-manufacture-server"
+    "clientCode": "https://github.com/sumonbarai/warehouse-client",
+    "serverCode": "https://github.com/sumonbarai/warehouse-server"
   },
   {
     "_id": "3",
@@ -75,30 +76,22 @@
     "image3": "https://i.ibb.co/qpGRGgr/project-03-c.png",
     "liveLink": "https://fitness-94a8e.firebaseapp.com/",
     "overview": [
-      "Users can order items for their business and also pay by international card.",
-      "User can Cancel their unpaid order and also give reviews about the sites.",
-      "Admin users can maintain all orders and make an admin or remove the admin",
+      "This website has a login system using Firebase",
+      "Users can purchase your gym service .",
+      "Users can not go checkout page without login.",
       "google firebase authentication system apply",
-      "used mongodb database for maintain user data"
+      "Provide Gym service in customer"
     ],
     "technology": [
+      "Html",
+      "Css",
+      "JavaScript",
       "React js",
       "React Router",
-      "Tailwind CSS",
-      "DaisyUI",
+      "Bootstrap",
       "Firebase",
-      " React hook form",
-      "React-Hot-Toast",
-      "React Query",
-      "Stripe",
-      "MongoDB",
-      "NodeJs",
-      "ExpressJs",
-      "Cors",
-      "Dotenv",
-      "Jsonwebtoken"
+      "React-Hot-Toast"
     ],
-    "clientCode": "https://github.com/sumonbarai/electric-menufacture-client",
-    "serverCode": "https://github.com/sumonbarai/electric-manufacture-server"
+    "clientCode": "https://github.com/sumonbarai/fitness"
   }
 ]

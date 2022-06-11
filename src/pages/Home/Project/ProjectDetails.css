@@ -30,3 +30,14 @@
   font-size: 1.4rem;
   color: #6e6e6e;
 }
+.product-details .all-technology {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 1rem;
+}
+.product-details .all-technology .child {
+  background-color: #6e6e6e;
+  padding: 1rem;
+  font-size: 1.4rem;
+  color: #fff;
+}
