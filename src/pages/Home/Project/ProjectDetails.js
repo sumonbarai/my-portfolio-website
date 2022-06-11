@@ -30,24 +30,24 @@ const ProjectDetails = () => {
       <div className="header-bg"></div>
       <div className="container">
         <h2 className="section-title">Project Details Information</h2>
-        <div className="row">
-          <div className="col-lg-4 mb-4">
+        <div className="row" data-aos="fade-up" data-aos-duration="2000">
+          <div className="col-lg-4 mb-4 img-height">
             <div className="photo">
               <img src={project.image1} alt="images" />
             </div>
           </div>
-          <div className="col-lg-4 mb-4">
+          <div className="col-lg-4 mb-4 img-height">
             <div className="photo">
               <img src={project.image2} alt="images" />
             </div>
           </div>
-          <div className="col-lg-4 mb-4">
+          <div className="col-lg-4 mb-4 img-height">
             <div className="photo">
               <img src={project.image3} alt="images" />
             </div>
           </div>
         </div>
-        <div className="row">
+        <div className="row" data-aos="fade-up" data-aos-duration="2000">
           <div className="col">
             <h2 className="project-overview">Project overview</h2>
             <ul>

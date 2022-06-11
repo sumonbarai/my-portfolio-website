@@ -5,7 +5,7 @@ import "./NavBar.css";
 const NavBar = () => {
   window.addEventListener("scroll", () => {
     const scrollBar = window.scrollY;
-    if (scrollBar > 500) {
+    if (scrollBar > 200) {
       document.getElementById("nav-area").style.position = "fixed";
       document.getElementById("nav-area").style.backgroundColor = "#191C26";
     } else {
