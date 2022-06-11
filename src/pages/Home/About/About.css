@@ -43,6 +43,9 @@
   margin-top: 1em;
   display: inline-block;
   text-align: center;
+  font-size: 1.6rem;
+  margin: 1rem;
+  text-transform: capitalize;
 }
 .learn-btn:hover {
   color: #fff;

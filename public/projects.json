@@ -13,6 +13,23 @@
       "google firebase authentication system apply",
       "used mongodb database for maintain user data"
     ],
+    "technology": [
+      "React js",
+      "React Router",
+      "Tailwind CSS",
+      "DaisyUI",
+      "Firebase",
+      " React hook form",
+      "React-Hot-Toast",
+      "React Query",
+      "Stripe",
+      "MongoDB",
+      "NodeJs",
+      "ExpressJs",
+      "Cors",
+      "Dotenv",
+      "Jsonwebtoken"
+    ],
     "clientCode": "https://github.com/sumonbarai/electric-menufacture-client",
     "serverCode": "https://github.com/sumonbarai/electric-manufacture-server"
   },
@@ -30,6 +47,23 @@
       "google firebase authentication system apply",
       "used mongodb database for maintain user data"
     ],
+    "technology": [
+      "React js",
+      "React Router",
+      "Tailwind CSS",
+      "DaisyUI",
+      "Firebase",
+      " React hook form",
+      "React-Hot-Toast",
+      "React Query",
+      "Stripe",
+      "MongoDB",
+      "NodeJs",
+      "ExpressJs",
+      "Cors",
+      "Dotenv",
+      "Jsonwebtoken"
+    ],
     "clientCode": "https://github.com/sumonbarai/electric-menufacture-client",
     "serverCode": "https://github.com/sumonbarai/electric-manufacture-server"
   },
@@ -46,6 +80,23 @@
       "Admin users can maintain all orders and make an admin or remove the admin",
       "google firebase authentication system apply",
       "used mongodb database for maintain user data"
+    ],
+    "technology": [
+      "React js",
+      "React Router",
+      "Tailwind CSS",
+      "DaisyUI",
+      "Firebase",
+      " React hook form",
+      "React-Hot-Toast",
+      "React Query",
+      "Stripe",
+      "MongoDB",
+      "NodeJs",
+      "ExpressJs",
+      "Cors",
+      "Dotenv",
+      "Jsonwebtoken"
     ],
     "clientCode": "https://github.com/sumonbarai/electric-menufacture-client",
     "serverCode": "https://github.com/sumonbarai/electric-manufacture-server"

@@ -5,6 +5,14 @@ import "./ProjectDetails.css";
 const ProjectDetails = () => {
   const [project, setProject] = useState({});
   const { id } = useParams();
+  let projectOverview = [];
+  let technology = [];
+  if (project?.overview) {
+    projectOverview = project?.overview;
+  }
+  if (project?.technology) {
+    technology = project?.technology;
+  }
 
   useEffect(() => {
     fetch(
@@ -42,6 +50,29 @@ const ProjectDetails = () => {
         <div className="row">
           <div className="col">
             <h2 className="project-overview">Project overview</h2>
+            <ul>
+              {projectOverview.map((overview, index) => (
+                <li key={index}>{overview}</li>
+              ))}
+            </ul>
+            <h2 className="project-overview">Technology Used</h2>
+            <div>
+              {technology.map((a, index) => (
+                <div key={index}>a</div>
+              ))}
+            </div>
+
+            <div className="allLink">
+              <a className="learn-btn" href={project.clientCode}>
+                Client Side Code
+              </a>
+              <a className="learn-btn" href={project.serverCode}>
+                server Side Code
+              </a>
+              <a className="learn-btn" href={project.liveLink}>
+                live preview
+              </a>
+            </div>
           </div>
         </div>
       </div>
