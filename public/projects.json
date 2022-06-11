@@ -5,7 +5,16 @@
     "image1": "https://i.ibb.co/VpFMf6V/project-01.jpg",
     "image2": "https://i.ibb.co/X3zYgV5/project-01-b.png",
     "image3": "https://i.ibb.co/3mFYrgt/project-01-c.png",
-    "liveLink": "https://electric-manufacture.web.app/"
+    "liveLink": "https://electric-manufacture.web.app/",
+    "overview": [
+      "Users can order items for their business and also pay by international card.",
+      "User can Cancel their unpaid order and also give reviews about the sites.",
+      "Admin users can maintain all orders and make an admin or remove the admin",
+      "google firebase authentication system apply",
+      "used mongodb database for maintain user data"
+    ],
+    "clientCode": "https://github.com/sumonbarai/electric-menufacture-client",
+    "serverCode": "https://github.com/sumonbarai/electric-manufacture-server"
   },
   {
     "_id": "2",
@@ -13,7 +22,16 @@
     "image1": "https://i.ibb.co/cYt3by0/project-02.jpg",
     "image2": "https://i.ibb.co/k6Sm0LX/project-02-b.png",
     "image3": "https://i.ibb.co/FqL02HL/project-02-c.png",
-    "liveLink": "https://warehouse-95574.web.app/"
+    "liveLink": "https://warehouse-95574.web.app/",
+    "overview": [
+      "Users can order items for their business and also pay by international card.",
+      "User can Cancel their unpaid order and also give reviews about the sites.",
+      "Admin users can maintain all orders and make an admin or remove the admin",
+      "google firebase authentication system apply",
+      "used mongodb database for maintain user data"
+    ],
+    "clientCode": "https://github.com/sumonbarai/electric-menufacture-client",
+    "serverCode": "https://github.com/sumonbarai/electric-manufacture-server"
   },
   {
     "_id": "3",
@@ -21,6 +39,15 @@
     "image1": "https://i.ibb.co/yXGxhm8/project-03.png",
     "image2": "https://i.ibb.co/d0m3Ws5/project-03-b.png",
     "image3": "https://i.ibb.co/qpGRGgr/project-03-c.png",
-    "liveLink": "https://fitness-94a8e.firebaseapp.com/"
+    "liveLink": "https://fitness-94a8e.firebaseapp.com/",
+    "overview": [
+      "Users can order items for their business and also pay by international card.",
+      "User can Cancel their unpaid order and also give reviews about the sites.",
+      "Admin users can maintain all orders and make an admin or remove the admin",
+      "google firebase authentication system apply",
+      "used mongodb database for maintain user data"
+    ],
+    "clientCode": "https://github.com/sumonbarai/electric-menufacture-client",
+    "serverCode": "https://github.com/sumonbarai/electric-manufacture-server"
   }
 ]
